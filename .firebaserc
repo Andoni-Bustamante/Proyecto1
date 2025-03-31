@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "manhwaweb": {
+      "hosting": {
+        "Proyecto1": [
+          "manhwaweb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "manhwaweb"
+  }
+}
