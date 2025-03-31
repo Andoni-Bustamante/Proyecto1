@@ -1,11 +1,11 @@
 <div class="manhwa-card">
   <img class="manhwa-card__image" [src]="manhwa.imagenUrl" [alt]="manhwa.titulo" />
   <div class="manhwa-card__content">
-    <h2 class="manhwa-card__title">{{ manhwa.titulo }}</h2>
-    <p class="manhwa-card__chapter">Capítulo: {{ manhwa.capitulo }}</p>
-    <p class="manhwa-card__genres">
-      Géneros: {{ manhwa.generos.join(', ') }}
-    </p>
-    <p class="manhwa-card__summary">{{ manhwa.resumen }}</p>
+    <h2 class="manhwa-card__title" title="{{ manhwa.titulo }}">{{ manhwa.titulo }}</h2>
+    <div class="manhwa-card__chapter-controls">
+      <button class="manhwa-card__button"><-</button>
+      <p class="manhwa-card__chapter">{{ manhwa.capitulo }}</p>
+      <button class="manhwa-card__button">-></button>
+    </div>
   </div>
 </div>

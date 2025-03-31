@@ -11,6 +11,7 @@ import { ManhwaCardComponent } from './components/manhwa-card/manhwa-card.compon
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { NewManhwaComponent } from './pages/new-manhwa/new-manhwa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MenuComponent } from './components/menu/menu.component';
     ManhwaCardComponent,
     HomeComponent,
     LoginComponent,
-    MenuComponent
+    MenuComponent,
+    NewManhwaComponent
   ],
   imports: [
     BrowserModule,

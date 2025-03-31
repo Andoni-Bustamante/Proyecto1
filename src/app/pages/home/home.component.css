@@ -1,0 +1,12 @@
+.manhwa-list {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten a nuevas filas */
+  gap: 16px; /* Espaciado entre las tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  padding: 16px;
+}
+
+.manhwa-card {
+  flex: 0 1 calc(33.333% - 32px); /* Cada tarjeta ocupa un tercio del ancho del contenedor menos el espacio del gap */
+  box-sizing: border-box; /* Asegura que el padding y el borde no afecten al ancho total */
+}
