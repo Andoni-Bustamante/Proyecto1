@@ -1,0 +1,32 @@
+.manhwa-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  background-color: #fff;
+}
+
+.manhwa-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.manhwa-card__content {
+  padding: 16px;
+}
+
+.manhwa-card__title {
+  font-size: 1.5rem;
+  margin: 0 0 8px;
+}
+
+.manhwa-card__chapter,
+.manhwa-card__genres,
+.manhwa-card__summary {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
